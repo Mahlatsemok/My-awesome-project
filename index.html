@@ -16,7 +16,7 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form" id="search-form">
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
@@ -30,15 +30,16 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 class="current-city" id="city"></h1>
+            <h1 class="current-city" id="city">Paris</h1>
             <p class="current-details">
               <span id="time"></span>, <span id="description"></span> <br />
-              Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
-          <div class="current-temperature">
-            <span id="icon" class="current-temperature-icon"></span>     
-            <span class="current-temperature-value" id="temperature"></span>
+          <div class="current-temperature-container">
+            <span id="icon" class="current-temperature-icon"></span>
+            <span class="current-temperature-value" id="temperature">24</span>
             <span class="current-temperature-unit">°C</span>
           </div>
         </div>
@@ -46,9 +47,22 @@
       <footer>
         <p>
           This project was coded by
-          <a href="https://github.com/Mahlatsemok" target="_blank">Mahlatse Mokhabela</a> and is
-          <a href="https://github.com/Mahlatsemok/My-awesome-project" target="_blank"> on GitHub</a> and
-          <a href="https://app.netlify.com/sites/zesty-cajeta-71dbf5/deploys/66aa79b594b7101e8527abea" target="_blank">hosted on Netlify</a>
+          <a href="https://github.com/Mahlatsemok" target="_blank"
+            >Mahlatse Mokhabela</a
+          >
+          and is
+          <a
+            href="https://github.com/Mahlatsemok/My-awesome-project"
+            target="_blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a
+            href="https://app.netlify.com/sites/zesty-cajeta-71dbf5/deploys/66aa79b594b7101e8527abea"
+            target="_blank"
+            >hosted on Netlify</a
+          >
         </p>
       </footer>
     </div>
